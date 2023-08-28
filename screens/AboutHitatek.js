@@ -17,7 +17,7 @@ const AboutHitatek = () => {
           />
         </View>
         <View style={styles.textContainer}>
-          <Text style={styles.companyName}>Hitatek Yazılım Ve Bilişim Sistemleri</Text>
+          <Text style={styles.companyName}>{t('companyName')}</Text>
           <Text style={styles.boldText}>{t('AboutHitatek')}</Text>
            <Text style={styles.boldText}>{t('AboutHitatek2')}</Text> 
         </View>
